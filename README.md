@@ -14,7 +14,7 @@ This is a simple workflow / model for Development, Testing and Production (D.T.P
 * PHP Errors should be turned on to the full possible.
 * Database debugging features should be turned on.
 * Strict mode should be enabled everywhere possible in PHP, JS, and MySQL.
-* CDNs for scripts uch as jQuery should not be used here. Development (Non-minified) releases of scripts should be used wherever possible.
+* CDNs for scripts should NOT be used here. Development (Non-minified) releases of scripts should be used wherever possible.
 * Only once the development branch is deemed in a major or relatively stable version should changes should be merged with the TESTING branch.
 
 ## TESTING Branch (aka BETA Branch)
@@ -22,7 +22,7 @@ This is a simple workflow / model for Development, Testing and Production (D.T.P
 * This branch should be tested on a LIVE testing server NOT a local (localhost) setup.
 * Files and performance should be benchmarked and logged in concatenated vs non-concatenated and minified vs non-minified.
 * All images should be optimized using a "Save for web..." or optimize for web. Images should be optimized gradually and tested and logged for best highest performance / quality ratios.
-* CDNs for scrips and frameworks should be in the main testing branch, but not strictly in branches created from this branch.
+* CDNs for scrips and frameworks should be used in the main testing branch, but not strictly in branches created from this branch.
 * Caching should be enabled here.
 * Once any modifications are finished and the testing branch is deemed stable and safe for a live production environment only then should it be moved to production.
 
